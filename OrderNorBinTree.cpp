@@ -232,14 +232,15 @@ int main()
 	int size=sizeof(arr)/sizeof(*arr);
 	BinTree<char> s;
 	s.CreatBinTree(arr,size,'#'); 
-s.preOrder();
+   //s.preOrder();
+	s.MirrorBintree(); 
 	s.preOrderNorone();
-	s.preOrderNortwo(); 
+	/*s.preOrderNortwo(); 
 	s.inOrderNor(); 
 	s.inOrder(); 
 	s.postOrder(); 
 	s.postOrderNor(); 
 	s.leveOrder(); 
-  s.preOrder(); 
+    s.preOrder();*/ 
    return 0;
 } 
