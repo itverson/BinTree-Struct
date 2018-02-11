@@ -188,7 +188,7 @@ class BinTree
 	   } 
 	   cout<<endl;
    }
- private:
+private:
    void _CreatBinTree(PNode& pRoot,const T* arr,const int size,int& index,const T& invalue)
    {
 	  if(index<size&&arr[index]!=invalue)
